@@ -13,7 +13,7 @@
     "package-release": "npm run build && npm publish"
   },
   "files": [
-    "build",
+    "dist",
     "index.d.ts"
   ],
   "devDependencies": {
