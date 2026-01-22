@@ -9,7 +9,7 @@
     "url": "git+https://github.com/SnowRunescape/hytale-server-status-query"
   },
   "scripts": {
-    "build": "tsc && tsc-alias",
+    "build": "tsc",
     "package-release": "npm run build && npm publish"
   },
   "files": [
