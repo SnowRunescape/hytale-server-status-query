@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SnowRunescape/hytale-server-status-query"
+    "url": "git+https://github.com/SnowRunescape/hytale-server-status-query.git"
   },
   "scripts": {
     "build": "tsc",
