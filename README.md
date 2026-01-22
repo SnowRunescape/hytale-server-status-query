@@ -1,0 +1,1 @@
+# Hytale Server Status Query

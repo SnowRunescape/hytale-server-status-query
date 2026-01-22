@@ -1,0 +1,30 @@
+{
+  "name": "hytale-server-status-query",
+  "description": "Cliente QUIC para verificar status de servidores Hytale",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnowRunescape/hytale-server-status-query"
+  },
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "package-release": "npm run build && npm publish"
+  },
+  "files": [
+    "build",
+    "index.d.ts"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "typescript": "^5.1.6"
+  },
+  "keywords": [
+    "hytale",
+    "server",
+    "status",
+    "query",
+    "quic"
+  ]
+}
